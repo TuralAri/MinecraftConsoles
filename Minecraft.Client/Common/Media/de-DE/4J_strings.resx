@@ -105,4 +105,10 @@ Jetzt das vollständige Spiel freischalten?</value>
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>Du bist zum Hauptmenü zurückgekehrt, weil beim Lesen deines Profils ein Fehler aufgetreten ist.</value>
 </data>
+  <data name="IDS_DESC_POTATO_TURAL">
+    <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+  </data>	
+  <data name="IDS_ITEM_POTATO_TURAL">
+    <value>Potatural</value>
+  </data>	
 </root>

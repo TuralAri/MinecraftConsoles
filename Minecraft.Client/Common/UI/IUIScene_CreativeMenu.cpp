@@ -413,6 +413,7 @@ void IUIScene_CreativeMenu::staticCtor()
 		ITEM(Item::spiderEye_Id)
 		ITEM(Item::potato_Id)
 		ITEM(Item::potatoBaked_Id)
+        ITEM(Item::potatoTural_Id,1) // Enchanted
 		ITEM(Item::potatoPoisonous_Id)
 		ITEM(Item::carrots_Id)
 		ITEM(Item::carrotGolden_Id)

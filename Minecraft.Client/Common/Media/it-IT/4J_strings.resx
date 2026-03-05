@@ -105,4 +105,10 @@ Vuoi sbloccare il gioco completo?</value>
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>Verrai riportato al menu principale per un problema di lettura del tuo profilo.</value>
 </data>
+  <data name="IDS_DESC_POTATO_TURAL">
+    <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+  </data>	
+  <data name="IDS_ITEM_POTATO_TURAL">
+    <value>Potatural</value>
+  </data>	
 </root>

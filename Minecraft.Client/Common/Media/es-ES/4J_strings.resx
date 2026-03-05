@@ -105,4 +105,10 @@ Desbloquea el juego completo para vivir toda la emoción de Minecraft y jugar co
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>Volverás al menú principal porque se ha producido un error al leer tu perfil.</value>
 </data>
+  <data name="IDS_DESC_POTATO_TURAL">
+    <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+  </data>	
+  <data name="IDS_ITEM_POTATO_TURAL">
+    <value>Potatural</value>
+  </data>	
 </root>

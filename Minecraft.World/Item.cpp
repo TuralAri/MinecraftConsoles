@@ -226,6 +226,7 @@ Item *Item::carrots = NULL;
 Item *Item::potato = NULL;
 Item *Item::potatoBaked = NULL;
 Item *Item::potatoPoisonous = NULL;
+Item *Item::potatoTural = NULL;
 
 EmptyMapItem *Item::emptyMap = NULL;
 
@@ -472,7 +473,9 @@ void Item::staticCtor()
 	Item::potato = (new SeedFoodItem(136, 1, FoodConstants::FOOD_SATURATION_LOW, Tile::potatoes_Id, Tile::farmland_Id))		->setIconName(L"potato")->setDescriptionId(IDS_POTATO)->setUseDescriptionId(IDS_DESC_POTATO);
 	Item::potatoBaked = (new FoodItem(137, 6, FoodConstants::FOOD_SATURATION_NORMAL, false))								->setIconName(L"potatoBaked")->setDescriptionId(IDS_ITEM_POTATO_BAKED)->setUseDescriptionId(IDS_DESC_POTATO_BAKED);
 	Item::potatoPoisonous = (new FoodItem(138, 2, FoodConstants::FOOD_SATURATION_LOW, false))								->setEatEffect(MobEffect::poison->id, 5, 0, .6f)->setIconName(L"potatoPoisonous")->setDescriptionId(IDS_ITEM_POTATO_POISONOUS)->setUseDescriptionId(IDS_DESC_POTATO_POISONOUS);
+    Item::potatoTural = (new FoodItem(166, 10, FoodConstants::FOOD_SATURATION_MAX, true))								->setEatEffect(MobEffect::regeneration->id, 5, 0, .6f)->setIconName(L"emerald")->setDescriptionId(IDS_ITEM_POTATO_TURAL)->setUseDescriptionId(IDS_DESC_POTATO_TURAL);
 
+    
 	Item::emptyMap = (EmptyMapItem *) (new EmptyMapItem(139))->setIconName(L"map_empty")->setDescriptionId(IDS_ITEM_MAP_EMPTY)->setUseDescriptionId(IDS_DESC_MAP_EMPTY);
 
 	Item::carrotGolden = (new FoodItem(140, 6, FoodConstants::FOOD_SATURATION_SUPERNATURAL, false))			->setBaseItemTypeAndMaterial(eBaseItemType_giltFruit,	eMaterial_carrot)->setIconName(L"carrotGolden")->setPotionBrewingFormula(PotionBrewing::MOD_GOLDENCARROT)->setDescriptionId(IDS_ITEM_CARROT_GOLDEN)->setUseDescriptionId(IDS_DESC_CARROT_GOLDEN);
@@ -1140,6 +1143,7 @@ const int Item::carrots_Id			;
 const int Item::potato_Id			;
 const int Item::potatoBaked_Id		;
 const int Item::potatoPoisonous_Id	;
+const int Item::potatoTural_Id      ;
 const int Item::carrotGolden_Id		;
 const int Item::carrotOnAStick_Id	;
 const int Item::pumpkinPie_Id		;

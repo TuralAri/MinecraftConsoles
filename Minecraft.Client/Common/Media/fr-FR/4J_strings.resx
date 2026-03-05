@@ -105,4 +105,10 @@ Voulez-vous déverrouiller le jeu complet ?</value>
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>Un problème s'est produit lors de la lecture de votre profil : retour au menu principal.</value>
 </data>
+  <data name="IDS_DESC_POTATO_TURAL">
+    <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+  </data>	
+  <data name="IDS_ITEM_POTATO_TURAL">
+    <value>Potatural</value>
+  </data>	
 </root>

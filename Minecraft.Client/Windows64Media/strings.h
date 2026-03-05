@@ -2289,3 +2289,5 @@
 #define IDS_RICHPRESENCESTATE_BREWING                          2283
 #define IDS_RICHPRESENCESTATE_ANVIL                            2284
 #define IDS_RICHPRESENCESTATE_TRADING                          2285
+#define IDS_ITEM_POTATO_TURAL                                  2286
+#define IDS_DESC_POTATO_TURAL                                  2287

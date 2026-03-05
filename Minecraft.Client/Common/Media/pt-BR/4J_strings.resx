@@ -105,4 +105,10 @@ Deseja desbloquear a versão integral do jogo?</value>
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>Você está voltando ao menu principal devido a um problema para ler seu perfil.</value>
 </data>
+  <data name="IDS_DESC_POTATO_TURAL">
+    <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+  </data>	
+  <data name="IDS_ITEM_POTATO_TURAL">
+    <value>Potatural</value>
+  </data>	
 </root>

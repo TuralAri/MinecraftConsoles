@@ -7254,6 +7254,12 @@ All Ender Chests in a world are linked. Items placed into an Ender Chest are acc
         <data name="IDS_SAVE_TRANSFER_UPLOADFAILED">
     <value>Upload Failed. Please try again later.</value>
   </data>
+<data name="IDS_DESC_POTATO_TURAL">
+	<value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+</data>	
+<data name="IDS_ITEM_POTATO_TURAL">
+	<value>Potatural</value>
+</data>	
 
 ﻿
 

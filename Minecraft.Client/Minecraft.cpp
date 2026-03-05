@@ -2479,6 +2479,7 @@ void Minecraft::tick(bool bFirst, bool bUpdateTextures)
 				case Item::potato_Id:
 				case Item::pumpkinPie_Id:
 				case Item::potatoPoisonous_Id:
+				case Item::potatoTural_Id:
 				case Item::carrotGolden_Id:
 				case Item::carrots_Id:
 				case Item::mushroomStew_Id:

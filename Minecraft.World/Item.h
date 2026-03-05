@@ -387,6 +387,7 @@ public:
 	static Item *potato;
 	static Item *potatoBaked;
 	static Item *potatoPoisonous;
+    static Item *potatoTural;
 
 	static EmptyMapItem *emptyMap;
 
@@ -617,6 +618,9 @@ public:
 	static const int horseArmorDiamond_Id = 419;
 	static const int lead_Id = 420;
 	static const int nameTag_Id = 421;
+
+    //Tural test add items
+    static const int potatoTural_Id = 422;
 
 public:
 	const int id;

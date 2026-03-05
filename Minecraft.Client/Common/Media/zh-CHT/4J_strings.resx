@@ -105,4 +105,10 @@
   </data>
 <data name="IDS_PRO_PROFILEPROBLEM_TEXT"><value>系統在讀取您的設定檔時發生問題。即將返回主畫面。</value>
 </data>
+<data name="IDS_DESC_POTATO_TURAL">
+  <value>Restitue 10{*ICON_SHANK_01*} mais peut vous regénérer.</value>
+</data>	
+<data name="IDS_ITEM_POTATO_TURAL">
+  <value>Potatural</value>
+</data>	
 </root>
