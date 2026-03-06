@@ -44,7 +44,7 @@ void PotatoTile::spawnResources(Level *level, int x, int y, int z, int data, flo
 	}
 	if (data >= 7)
 	{
-		if (level->random->nextInt(50) == 0)
+		if (level->random->nextInt(10) == 0)
 		{
 			popResource(level, x, y, z, shared_ptr<ItemInstance>(new ItemInstance(Item::potatoPoisonous)));
 			popResource(level, x, y, z, shared_ptr<ItemInstance>(new ItemInstance(Item::potatoTural)));
